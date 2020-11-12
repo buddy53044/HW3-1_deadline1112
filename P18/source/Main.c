@@ -10,6 +10,7 @@ int main(void)
 	int len;
 
 	strcpy_s(string2, 8, string1);
+	//strcpy(string2, string1);
 	printf("string2=%s\n", string2);
 
 	len = strlen(string2);
